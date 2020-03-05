@@ -194,3 +194,10 @@ footer p {
 .text{
     color: rgb(0, 0, 0);
 }
+
+.book{
+    float:left;
+}
+.book-text{
+    padding-left:100px ;
+}
