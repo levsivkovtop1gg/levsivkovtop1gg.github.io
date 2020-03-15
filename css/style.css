@@ -190,3 +190,23 @@ footer p {
         clear: both;
     }
 }
+
+.text{
+    color: rgb(0, 0, 0);
+}
+
+.book-img{
+    float:left;
+}
+.book-text{
+    padding-left:100px ;
+}
+.book-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.book{
+    width: 400px;
+    margin: 5px;
+}

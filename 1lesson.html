@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="levsivkov">
+
+    <title>Поможем с домашними заданиями | 1 класс</title>
+
+    <!-- Подключаем Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+
+    <!-- Подключаем свой CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Подключаем свои шрифты -->
+    <style>
+        @font-face {
+            font-family: 'MyWebFont1';
+            /*Даём название шрифту, чтобы присваивать его текстовым элементам на странице */
+            src: url('fonts/12236.ttf');
+            /*Указываем путь к файлу со шрифтом*/
+        }
+
+        @font-face {
+            font-family: 'MyWebFont2';
+            src: url('fonts/14027.otf');
+        }
+
+        .box{
+            min-height: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- задаём заголовку свой подключенный шрифт -->
+    <div class="brand text" style="font-family: MyWebFont1; letter-spacing:10px"> 
+        1 Класс
+    </div>
+    <!-- Меню по сайту -->
+    <nav class="navbar navbar-default" role="navigation" >
+        <div class="container">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#математика">Математика</a>
+                    </li>
+                    <li>
+                        <a href="#информатика">Информатика</a>
+                    </li>
+                    <li>
+                        <a href="#русский">Русский</a>
+                    </li>
+                    <li>
+                        <a href="#литература">Литература</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- вкладываем весь основной контент сайта в контейнер. Начало контейнера: .container -->
+    <div class="container">
+        <div class="row" id="математика">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center" style="font-family: MyWebFont1; letter-spacing:3px">
+                        Математика
+                    </h2>
+                    <hr>
+                    <p>Текст раздела 4. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="информатика">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center" style="font-family: MyWebFont1; letter-spacing:3px">
+                        Информатика
+                    </h2>
+                    <hr>
+                    <p>Текст раздела 4. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="русский">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center" style="font-family: MyWebFont1; letter-spacing:3px">
+                        Русский
+                    </h2>
+                    <hr>
+                    <p>Текст раздела 4. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="литература">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center" style="font-family: MyWebFont1; letter-spacing:3px">
+                        Литература
+                    </h2>
+                    <hr>
+                    <p>Текст раздела 4. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- окончание контейнера: /.container -->
+
+    <!-- Нижний колонтитул -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Автор сайта Лев Сивков Михайлович (УТЛ)</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключаем jQuery java script -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Подключаем Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Скрипт для активации слайд-шоу в фотогалерее -->
+    <script>
+        $('.carousel').carousel({
+            interval: 5000 //Задайте скорость переключения фото
+        })
+    </script>
+
+</body>
+
+</html>
